@@ -1,0 +1,57 @@
+My  application is a simple React based SPA.
+It is nutratiion app allows users to determine the calorie
+content of food and adjust their eating habits and fitness level.
+It’ll invoke the /nutration fact resource of sample nutration API
+(Nutritionix)/
+and renders the info received in the response.
+
+The stack of this application consists of:
+1)Frontend with React
+2)A backend JSON API 
+
+
+
+Installation:
+1) axios library.
+2)react-router react-router-dom
+
+The application consists of :
+1)search input form.
+ A user can input type of food returns a nutration facts from OMDb.
+2)The user can also save food with a 
+rating and short comment into a favorites list.
+
+
+component needed(pages):
+1)Nutration fact 
+2)fitness 
+3)Home(act as the landing page and display a message to the user.)
+4)About
+5)error page 
+6)nav bar(acts as the navigational bar for the application.)
+7)measurment 
+
+
+user story :
+1)Calorie calculating
+2)Food Logging & Dashboard
+when users enter the type and amount of food, 
+ the application shows an average number 
+of calories that a user has likely consumed
+
+3)4: Hydration 💧
+ Hydration Screen display Appropriate water consumption 
+ 
+App features :
+Search for food through the Nutritionix Food Composition Databases
+allow user to log food and water intake and visualize their progress on a dashboard
+View food log for any day of your choosing using the date navigator on the home page
+Remove foods from your log
+Enter calories burned from exercise each day
+View nutrition breakdowns for any date range
+See a graph of food consumption and exercise over time
+ 
+ 
+
+
+
