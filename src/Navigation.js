@@ -28,11 +28,7 @@ const Navigation = () => {
               Home
             </Link>
           </li>
-          <li className="nav-item">
-            <Link className="nav-link" to={"/netfact"}>
-              Nutration Fact
-            </Link>
-          </li>
+         
           <li className="nav-item">
             <Link className="nav-link" to={"/fitness"}>
               Fitness

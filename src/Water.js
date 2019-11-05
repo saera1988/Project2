@@ -1,8 +1,8 @@
+// Water represent the main (parent)page
 import React, { Component } from "react";
 import WaterDrink from "./WaterDrink";
 import "./index.css";
 import WaterCups from "./WaterCups";
-// import { SSL_OP_SINGLE_ECDH_USE } from "constants";
 
 class Water extends Component {
   constructor() {
@@ -11,9 +11,10 @@ class Water extends Component {
     this.state = {
       cups: [],
       // another state to hold the current value
-      currentAmount:  "" 
+      currentAmount:  "" , 
     };
   }
+
   // change in the input field.
   handleInput = e => {
     const cupInput = e.target.value;
@@ -63,10 +64,10 @@ class Water extends Component {
       <div className="Water">
         <WaterDrink
           addCup={this.addCup}
-          // inputElement={this.inputElement}
           handleInput={this.handleInput}
           currentAmount={this.state.currentAmount}
           clearList={this.clearList}
+
         />
       <div>
         <WaterCups 

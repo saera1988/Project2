@@ -166,3 +166,10 @@ ul.theList {
  margin-left: 16.3%;
   /* margin-top: 0.00000000001pt;  */
 }
+.time{
+  background-color: chartreuse;
+  color: black;
+  font-size: 49px;
+  
+
+}
