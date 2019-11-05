@@ -1,21 +1,28 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 // const Arr =[];
 class WaterCups extends Component {
-//   createCups(cup, i) {
-//     return (
-    
-// )
-// }
+  //   createCups(cup, i) {
+  //     return (
+
+  // )
+  // }
   render() {
-  
-  // const cupEntries = push(this.props.entries)
+    // const cupEntries = push(this.props.entries)
+    // etration throught the array of cups
     const cupIntak = this.props.data.map((item, i) => {
-     return <li key={i} onClick={() => 
-        this.props.deleteCup(item)}>
-        {item} <span className="material-icons">format_color_reset</span>
-      </li>
-    })
-    return (<ul className="theCups">{cupIntak}</ul>)
+      return (
+        //display input which is array in list 
+        <ul key={i}>
+        <span  id="listedCups" >{item} Cups </span>
+        {/* icon used as button to delet some items in list  */}
+          <button onClick={() => this.props.deleteCup(item)} className="material-icons">format_color_reset</button> 
+          {/* display time and date  */}
+          <span className="Date">{new Date().toTimeString()}</span>
+        </ul>
+      );
+    });
+     //display input which is array in list
+    return <ul className="theCups">{cupIntak}</ul>;
   }
 }
 export default WaterCups;

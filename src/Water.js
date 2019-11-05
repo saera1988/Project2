@@ -7,7 +7,7 @@ import WaterCups from "./WaterCups";
 class Water extends Component {
   constructor() {
     super();
-    // state to hold the array of cups  and render elements on the pag
+    // state to hold the array of cups to render elements 
     this.state = {
       cups: [],
       // another state to hold the current value
@@ -23,6 +23,7 @@ class Water extends Component {
     });
   };
 
+  // add cups 
   addCup = (e) => {
     // prevent reloading from submitting the form
     e.preventDefault();
@@ -42,15 +43,17 @@ class Water extends Component {
    
   };
 
+  // clear the whole list 
   clearList = () => {
     this.setState({
       cups: []
     });
   }
 
+  // to modify and delet some items from the list 
   deleteCup = item => {
-    const cups= [...this.state.cups];
-    const indexOfCup= cups.indexOf(item);
+    const cups= [...this.state.cups]; //copy from cups array
+    const indexOfCup= cups.indexOf(item); //find the index of the 2nd cpoy 
     cups.splice(indexOfCup, 1);
     this.setState({cups});
   };

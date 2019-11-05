@@ -18,7 +18,9 @@ code {
   
 body {
   padding: 50px;
-  background-color: #66CCFF;
+  background-image: url("images/woman-drinking-water_santacruzcore.jpg");
+  background-size:  cover;
+  background-attachment: fixed;
   font-family: sans-serif;
 }
 
@@ -33,21 +35,23 @@ body {
   font-size: 16px;
   border: 2px solid #FFF;
   width: 165px;
+  color:  rgb(91, 168, 199);
+
 }
 
-.WaterDrinkMain .header button {
+/* .WaterDrinkMain .header button {
   padding: 10px;
   font-size: 16px;
   margin: 10px;
   margin-right: 0px;
-  background-color: rgb(1, 15, 36);
+  background-color: #282c34;
   color: #FFF;
-  border: 2px solid rgb(1, 15, 36);
-}
+  border: 2px solid rgb(91, 168, 199);
+} */
 
 .WaterDrinkMain.header button:hover {
-  background-color: #4f689b;
-  border: 2px solid #4f689b;
+  background-color: #e9b88f;
+
   cursor: pointer;
 }
 
@@ -94,4 +98,71 @@ ul.theList {
 	background-color: red;
 	color: #ffffff;
 	cursor: pointer;
+}
+.Date{
+  
+    padding: 4px;
+    font-size: 14px;
+    margin: 6px;
+    margin-right: 0px;
+    background-color:rgb(91, 168, 199);
+    color: #FFF;
+    border: 2px solid rgb(167, 171, 175);
+  }
+
+  #listedCups{
+    padding: 4px;
+    font-size: 14px;
+    margin: 6px;
+    margin-right: 0px;
+    background-color:rgb(91, 168, 199);
+    color: #FFF;
+    border: 2px solid rgb(167, 171, 175);
+  }
+
+  .material-icons{
+
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: rgb(173, 142, 118);
+    color:black;
+    border:2px solid white ;
+  }
+  
+  .WaterDrinkMain{
+    /* background-image: url("images/images.jpeg"); */
+   
+  }
+
+  /* .ClearCup{
+    background-color: peachpuff;
+  }
+
+.AddCup{
+  background-color: peachpuff;
+} */
+
+.Add{
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #282c34;
+  color: #FFF;
+  border: 2px solid rgb(91, 168, 199); 
+}
+
+.Clear{
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #282c34;
+  color: #FFF;
+  border: 2px solid rgb(91, 168, 199); 
+ margin-left: 16.3%;
+  /* margin-top: 0.00000000001pt;  */
 }

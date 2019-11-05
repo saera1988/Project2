@@ -3,10 +3,10 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <main role="main" class="container">
-            <div class="jumbotron">
+        <main role="main" className="container">
+            <div className="jumbotron">
                 <h1>Welcome to Fit Life !</h1>
-                <p class="lead">We speak the good food language.</p>
+                <p className="lead">We speak the good food language.</p>
             </div>
         </main>
     );

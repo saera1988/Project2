@@ -3,10 +3,10 @@ import React from 'react';
 
 const Fitness = () => {
     return (
-        <main role="main" class="container">
-            <div class="jumbotron">
+        <main role="main" className="container">
+            <div className="jumbotron">
                 <h1>Fitness level!</h1>
-                <p class="lead">Day activities </p>
+                <p className="lead">Day activities </p>
             </div>
         </main>
     );

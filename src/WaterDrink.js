@@ -16,10 +16,10 @@ class WaterDrink extends Component {
              ref = {this.props.inputElement} 
              value={this.props.currentAmount}
              onChange={this.props.handleInput}/>
-            <button type="submit"> Add Cups </button>
+            <button  type="submit" className="Add"> Add Cups </button>
             
           </form>
-          <button onClick={this.props.clearList}>
+          <button onClick={this.props.clearList} className="Clear">
           Clear List!
         </button>
         </div>
