@@ -2,11 +2,15 @@
 import React, { Component } from "react";
 
 class WaterDrink extends Component {
+
+  
    render() {
     return (
       <div className="WaterDrinkMain">
         <div className="header">
-          <h3 className="StayHidrated">Stay Hydrated</h3>
+          <h1 className="StayHidrated">Stay Hydrated</h1>
+          
+
           {/* user will inter numbers of cup in this form which will call the function addcup */}
           <form onSubmit={this.props.addCup}>
             <input

@@ -31,7 +31,13 @@ class Water extends Component {
     
     const newCup = this.state.currentAmount;
     console.log("state " + newCup);
-    if (newCup.text !== "") {
+    if(!newCup || newCup < 1) {
+      this.setState({
+        cups: [...this.state.cups],
+        currentAmount: ""
+      
+      });
+    } else {
       console.log(newCup);
       // const items = [this.state.items, newCup];
       this.setState({
@@ -39,7 +45,6 @@ class Water extends Component {
         currentAmount: newCup
       
       });
-
     }
    
   };
@@ -62,6 +67,7 @@ class Water extends Component {
   render() {
     return (
       <div className="Water">
+      <progress value={this.state.cups.join("+")} max="8"></progress>
         <WaterDrink
           addCup={this.addCup}
           handleInput={this.handleInput}
