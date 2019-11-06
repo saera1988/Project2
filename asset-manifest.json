@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Project2/static/css/main.0b5ab3e2.chunk.css",
-    "main.js": "/Project2/static/js/main.7769c6f6.chunk.js",
-    "main.js.map": "/Project2/static/js/main.7769c6f6.chunk.js.map",
+    "main.css": "/Project2/static/css/main.c3957901.chunk.css",
+    "main.js": "/Project2/static/js/main.385cc1ae.chunk.js",
+    "main.js.map": "/Project2/static/js/main.385cc1ae.chunk.js.map",
     "runtime-main.js": "/Project2/static/js/runtime-main.f22c40c0.js",
     "runtime-main.js.map": "/Project2/static/js/runtime-main.f22c40c0.js.map",
     "static/js/2.1e996212.chunk.js": "/Project2/static/js/2.1e996212.chunk.js",
     "static/js/2.1e996212.chunk.js.map": "/Project2/static/js/2.1e996212.chunk.js.map",
     "index.html": "/Project2/index.html",
-    "precache-manifest.736c10201f7b8b393d364522776f6907.js": "/Project2/precache-manifest.736c10201f7b8b393d364522776f6907.js",
+    "precache-manifest.bc6723fe14fbf3d9a2cbe9d8a66f388a.js": "/Project2/precache-manifest.bc6723fe14fbf3d9a2cbe9d8a66f388a.js",
     "service-worker.js": "/Project2/service-worker.js",
-    "static/css/main.0b5ab3e2.chunk.css.map": "/Project2/static/css/main.0b5ab3e2.chunk.css.map",
+    "static/css/main.c3957901.chunk.css.map": "/Project2/static/css/main.c3957901.chunk.css.map",
     "static/media/index.css": "/Project2/static/media/woman-drinking-water_santacruzcore.33df59f6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f22c40c0.js",
     "static/js/2.1e996212.chunk.js",
-    "static/css/main.0b5ab3e2.chunk.css",
-    "static/js/main.7769c6f6.chunk.js"
+    "static/css/main.c3957901.chunk.css",
+    "static/js/main.385cc1ae.chunk.js"
   ]
 }
