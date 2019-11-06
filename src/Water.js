@@ -64,10 +64,12 @@ class Water extends Component {
     this.setState({cups});
   };
   
+  
   render() {
     return (
       <div className="Water">
-      <progress value={this.state.cups.join("+")} max="8"></progress>
+        <label  className="file" for="file">H2O Goal:</label>
+      <progress  className="Progress" value={this.state.cups.join("+")} max="8"></progress>
         <WaterDrink
           addCup={this.addCup}
           handleInput={this.handleInput}

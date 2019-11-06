@@ -34,7 +34,7 @@ class Fitness extends Component {
            // handle success
            console.log(res.data);
            
-           let weather = (res.data.main.temp-273.15).toFixed(2)
+           let weather = (res.data.main.temp-273.15).toFixed(0)
         this.setState({
             weather : weather,
             main: res.data.weather[0].main,

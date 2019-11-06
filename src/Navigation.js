@@ -6,7 +6,7 @@ const Navigation = () => {
 //   const history = createBrowserHistory();
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a className="navbar-brand" href="./Home">
+      <a className="navbar-brand" href="/Home">
         Fit Life
       </a>
       <button

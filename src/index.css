@@ -167,7 +167,7 @@ color: rgb(25, 114, 165);
 
 
 .lead{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   margin-left: 3%;
   color: rgb(25, 114, 165);
@@ -176,4 +176,41 @@ color: rgb(25, 114, 165);
 
 .navbar-brand{
   color:white;
+}
+
+
+.Progress {
+  /* background-color: whiteSmoke;
+  border-radius: 2px;
+  box-shadow: 0 2px 3px rgba(43, 153, 227, 0.25) inset;
+
+  width: 150px;
+  height: 10px;
+  text-indent: -9px;
+ margin-left: 13%;
+ 
+  display: block; */
+}
+  
+/* .progress{
+  background-color: blue;
+  border-radius: 2px;
+
+  display: block;
+  text-indent: -9999px;
+} */
+
+.file{
+  font-size: 18px;
+  font-weight: bold;
+  /* margin-left: 3%; */
+  color: rgb(25, 114, 165);
+ padding-right: 7pt;
+
+ padding-bottom: 3px;
+}
+   
+.HomeList{
+  font-size: 17px;
+
 }

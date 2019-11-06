@@ -1,37 +1,36 @@
 My  application is a simple React based SPA.
-It is water tracker app allows users to log water intake and adjust  the info.
-also It tell the user if he should do indoor workout or outdoor based on the weather 
+It is health app 
+* water tracker app allows users to log water intake and adjust  the info.
+* tell the user if he should do indoor workout or outdoor based on the weather 
 condations which invoke the resource of sample weather API
 
 
 The stack of this application consists of:
 1)Frontend with React
 2)A backend JSON API 
+3)Bootstrab
 
 
 
 Installation:
 1) axios library.
 2)react-router react-router-dom
-
-The application consists of :
+3)Bootstrab
 
 
 
 component needed(pages):
-fitness 
+App component
 Home(act as the landing page and display a message to the user.)
 nav bar(acts as the navigational bar for the application.)
 water
+WaterDrink
+WaterCup
+Fitness
 
 
-user story :
-
-Hydration 💧
- Hydration Screen display Appropriate water consumption 
- 
 App features :
-Track your water intake and stay hydrated with Water Balance!
+THydration 💧:rack your water intake and stay hydrated with Water Balance!
  Log water with a single tap!
  
 
