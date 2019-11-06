@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Project2/static/css/main.4687249c.chunk.css",
+    "main.js": "/Project2/static/js/main.826fbe3a.chunk.js",
+    "main.js.map": "/Project2/static/js/main.826fbe3a.chunk.js.map",
+    "runtime-main.js": "/Project2/static/js/runtime-main.f22c40c0.js",
+    "runtime-main.js.map": "/Project2/static/js/runtime-main.f22c40c0.js.map",
+    "static/js/2.4c8f15de.chunk.js": "/Project2/static/js/2.4c8f15de.chunk.js",
+    "static/js/2.4c8f15de.chunk.js.map": "/Project2/static/js/2.4c8f15de.chunk.js.map",
+    "index.html": "/Project2/index.html",
+    "precache-manifest.3869de5cb82cae9c8ba60d1117b7d319.js": "/Project2/precache-manifest.3869de5cb82cae9c8ba60d1117b7d319.js",
+    "service-worker.js": "/Project2/service-worker.js",
+    "static/css/main.4687249c.chunk.css.map": "/Project2/static/css/main.4687249c.chunk.css.map",
+    "static/media/index.css": "/Project2/static/media/woman-drinking-water_santacruzcore.33df59f6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f22c40c0.js",
+    "static/js/2.4c8f15de.chunk.js",
+    "static/css/main.4687249c.chunk.css",
+    "static/js/main.826fbe3a.chunk.js"
+  ]
+}
