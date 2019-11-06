@@ -6,6 +6,7 @@ class WaterDrink extends Component {
     return (
       <div className="WaterDrinkMain">
         <div className="header">
+          <h3 className="StayHidrated">Stay Hydrated</h3>
           {/* user will inter numbers of cup in this form which will call the function addcup */}
           <form onSubmit={this.props.addCup}>
             <input
@@ -16,6 +17,7 @@ class WaterDrink extends Component {
               value={this.props.currentAmount}
               onChange={this.props.handleInput}
             />
+         
             {/* add button add to the list*/}
             <button type="submit" className="Add">
               {" "}

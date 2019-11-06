@@ -40,9 +40,7 @@ const Navigation = () => {
             </Link>
           </li>
         </ul>
-        <button className="btn btn-outline-success my-2 my-sm-0" type="button">
-          Sign In
-        </button>
+       
       </div>
     </nav>
   );
