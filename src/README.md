@@ -1,8 +1,8 @@
-# Fit Lite Health Tracke
+# Fit Life Health Tracke
 
 ## Table of contents
 
-* what is ?
+* what FitLife is ?
 * check the link
 * Screenshots(wireframe,webpage)
 * Technologies
@@ -23,21 +23,22 @@ https://saera1988.github.io/Project2/
 
 
 ## Technologies,the stack of this application consists of:
-1)Frontend with React
-2)A backend JSON API (openweathermap)
-3)Bootstrab
+* Frontend with React
+* A backend JSON API (openweathermap)
+* Bootstrab
 
 
 
 ## Installation:
-1)Axios library.
-2)React-router react-router-dom
-3)Bootstrab
+* Axios library.
+* React-router react-router-dom
+* Bootstrab
 
 
-## How it is work :
-* Hydration 💧: User will log  daily water intake every (cup) with just a tap.After every glass User can see how close  getting to daily goal,the log will give an idea of overall progress.
-* Fitness: User can check the weather in fitness page,the app will suggest where to do the  workout accordingto the tempreture.
+## User Story :
+* Hydration 💧: As user I will be able to log  daily water intake every (cup) with just a tap.After every glass
+* as a user I can see how close  getting to daily goal,the log will give an idea of overall progress.
+* Fitness: As user  I can check the weather in fitness page,the app will suggest where to do the  workout accordingto the tempreture.
 
 ## App features :
 
@@ -58,7 +59,7 @@ I used 7 component (pages):
 * WaterCup (include 3 button linked to the function on water and display the list taking item form user send from Waterdrink)
 * Fitness(use api to display weather ,linked the info provied by api and make if statment with 3 stat and desplay message according to the info from api)
  
- ## problems and solving strategy:
+ ## Problems and solving strategy:
 Api :Difficulties with finding a good api provide me with information about ative level or type of workout and the amount of calories was burned.I've tried many then it end up with using weather api and change the plan to determain the place for exersies accoording to weather condation and local tempreture.
 
 ## Status:
