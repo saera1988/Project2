@@ -18,29 +18,29 @@ IT is a simple React based SPA.A health app tracker developed better hydration a
 * Tell the user if where to do the workout (indoor/outdoor) based on the weather condations which invoke the resource of sample weather api (openweathermap). 
 
 
-## check the link:
+## Check the link
 https://saera1988.github.io/Project2/
 
 
-## Technologies,the stack of this application consists of:
+## Technologies,the stack of this application consists of
 * Frontend with React
 * A backend JSON API (openweathermap)
 * Bootstrab
 
 
 
-## Installation:
+## Installation
 * Axios library.
 * React-router react-router-dom
 * Bootstrab
 
 
-## User Story :
+## User Story 
 * Hydration 💧: As user I will be able to log  daily water intake every (cup) with just a tap.After every glass
 * as a user I can see how close  getting to daily goal,the log will give an idea of overall progress.
 * Fitness: As user  I can check the weather in fitness page,the app will suggest where to do the  workout accordingto the tempreture.
 
-## App features :
+## App features 
 
 * Track water intake and stay hydrated with Water Balance! 
 * Log water with a single tap!
@@ -59,17 +59,17 @@ I used 7 component (pages):
 * WaterCup (include 3 button linked to the function on water and display the list taking item form user send from Waterdrink)
 * Fitness(use api to display weather ,linked the info provied by api and make if statment with 3 stat and desplay message according to the info from api)
  
- ## Problems and solving strategy:
+ ## Problems and solving strategy
 Api :Difficulties with finding a good api provide me with information about ative level or type of workout and the amount of calories was burned.I've tried many then it end up with using weather api and change the plan to determain the place for exersies accoording to weather condation and local tempreture.
 
-## Status:
+## Status
 Project is:  finished,but it can be improved !
 
-## List unsolved problems :
+## List unsolved problems 
 * Api not working after deployement ,but it work localy.
 
 
-## Further improvements:
+## Further improvements
 * Add nutration page to calculate calories for given food
 * Edit the fitness page to add spasific type of workout and desplay the target hart rate and burned calories. 
 * Make the site fully responsive so that it is playable from a mobile phone
