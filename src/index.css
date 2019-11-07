@@ -39,16 +39,6 @@ body {
 
 }
 
-/* .WaterDrinkMain .header button {
-  padding: 10px;
-  font-size: 16px;
-  margin: 10px;
-  margin-right: 0px;
-  background-color: #282c34;
-  color: #FFF;
-  border: 2px solid rgb(91, 168, 199);
-} */
-
 .WaterDrinkMain.header button:hover {
   background-color: #e9b88f;
 
@@ -94,11 +84,7 @@ ul.theList {
   cursor: pointer;
 }
 
- ul.theList li:hover{
-	background-color: red;
-	color: #ffffff;
-	cursor: pointer;
-}
+
 .Date{
   
     padding: 4px;
@@ -120,6 +106,7 @@ ul.theList {
     border: 2px solid rgb(167, 171, 175);
   }
 
+  /* water drop icone for clear  */
   .material-icons{
 
     border-radius: 50%;
@@ -132,7 +119,7 @@ ul.theList {
     border:2px solid white ;
   }
 
-
+/* add button */
 .Add{
   padding: 10px;
   font-size: 16px;
@@ -143,6 +130,7 @@ ul.theList {
   border: 2px solid rgb(91, 168, 199); 
 }
 
+/* clear button */
 .Clear{
   padding: 10px;
   font-size: 16px;
@@ -165,7 +153,6 @@ color: rgb(25, 114, 165);
 }
 
 
-
 .lead{
   font-size: 25px;
   font-weight: bold;
@@ -174,32 +161,7 @@ color: rgb(25, 114, 165);
   
 }
 
-.navbar-brand{
-  color:white;
-}
-
-
-.Progress {
-  /* background-color: whiteSmoke;
-  border-radius: 2px;
-  box-shadow: 0 2px 3px rgba(43, 153, 227, 0.25) inset;
-
-  width: 150px;
-  height: 10px;
-  text-indent: -9px;
- margin-left: 13%;
- 
-  display: block; */
-}
-  
-/* .progress{
-  background-color: blue;
-  border-radius: 2px;
-
-  display: block;
-  text-indent: -9999px;
-} */
-
+/* label for progress line  */
 .file{
   font-size: 18px;
   font-weight: bold;

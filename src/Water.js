@@ -69,7 +69,10 @@ class Water extends Component {
     return (
       <div className="Water">
         <label  className="file" for="file">H2O Goal:</label>
-      <progress  className="Progress" value={this.state.cups.join("+")} max="8"></progress>
+        {/* display info in progress line  */}
+      <progress  className="Progress" value={this.state.cups.length > 0 && this.state.cups.reduce((acc,currValue) => parseInt(acc) + parseInt(currValue))} max="8">
+        
+      </progress>
         <WaterDrink
           addCup={this.addCup}
           handleInput={this.handleInput}
